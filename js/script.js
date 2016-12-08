@@ -72,4 +72,19 @@ $(document).ready(function() {
 		} );
 
 });
+    
+// Below function Executes on click of login button.
+function passwordValidate(){
+    var password = document.getElementById("password").value.toUpperCase();
+    if (password == "JUPITER"){
+        alert ("Enhorabuena!!!");
+        window.location = "img/voucher.pdf"; // Redirecting to other page.
+        return false;
+    }
+    else{
+        alert("¡Has fallado! También es el nombre de un planeta...");
+    }
+}
+
+
 
