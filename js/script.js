@@ -44,6 +44,7 @@ $(document).ready(function() {
 
 		// OwlCarousel N2
 		$("#owl-demo-1").owlCarousel({
+              autoPlay: false,
 			  slideSpeed : 300,
 			  paginationSpeed : 400,
 			  singleItem:true
