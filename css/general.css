@@ -77,10 +77,11 @@ margin: auto;
 	font-family: arvo;
 	font-weight: 300;
 	letter-spacing: 6px;
-     text-shadow: 2px 2px #ff0000;
 }
 
-.h3_home{font-weight: 300;}
+.h3_home{
+    font-weight: 700;
+}
 
 /*own carousel */
 
